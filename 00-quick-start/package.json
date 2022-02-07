@@ -1,0 +1,25 @@
+{
+  "name": "00-quick-start",
+  "version": "0.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "npx electron-builder install-app-deps",
+    "dev": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --macos"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.company.AppName",
+    "mac": {
+      "category": "public.app-category.testing",
+      "darkModeSupport": true
+    }
+  }
+}
