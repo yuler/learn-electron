@@ -1,15 +1,12 @@
 const path = require("path");
 const { app, BrowserWindow } = require("electron");
-// const { autoUpdater } = require("electron-updater");
+const { autoUpdater } = require("electron-updater");
 
-// Uncomment this before publishing your first version.
-// It's commented out as it throws an error if there are no published versions.
-// 	const MINUTE = 1000 * 60 * 30;
-// 	setInterval(() => {
-// 		autoUpdater.checkForUpdates();
-// 	}, MINUTE);
-//
-// 	autoUpdater.checkForUpdates();
+const MINUTE = 1000 * 60;
+setInterval(() => {
+  autoUpdater.checkForUpdatesAndNotify();
+}, MINUTE);
+autoUpdater.checkForUpdatesAndNotify();
 
 function createWindow() {
   const win = new BrowserWindow({
