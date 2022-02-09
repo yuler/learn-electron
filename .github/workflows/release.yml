@@ -20,7 +20,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          cd 01-release-and-auto-update
           yarn install
           yarn run release
         env:

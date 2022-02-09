@@ -1,5 +1,5 @@
 {
-  "name": "01-release-and-auto-update",
+  "name": "learn-electron",
   "version": "0.0.4",
   "private": true,
   "main": "main.js",
