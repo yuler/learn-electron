@@ -19,12 +19,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6
       - run: |
           cd 01-release-and-auto-update
-          pnpm install
-          pnpm run release
+          yarn install
+          yarn run release
         env:
           GH_TOKEN: ${{ github.token }}
