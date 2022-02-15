@@ -24,6 +24,13 @@
 
 ### 03: Refactor Repo Struct
 
+### 04: Electron Utils Packages
+
+- [electron-is-dev](https://npm.im/electron-is-dev)
+- [electron-unhandled](https://npm.im/electron-unhandled)
+- [electron-debug](https://npm.im/electron-debug)
+- [electron-context-menu](https://npm.im/electron-context-menu)
+
 ## Related Links
 
 - [electron](https://github.com/electron/electron)
