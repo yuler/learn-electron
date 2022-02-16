@@ -31,6 +31,11 @@
 - [electron-debug](https://npm.im/electron-debug)
 - [electron-context-menu](https://npm.im/electron-context-menu)
 
+### 05: Electron Utils Packages
+
+- [electron-store](https://npm.im/electron-store)
+- [electron-util](https://npm.im/electron-util)
+
 ## Related Links
 
 - [electron](https://github.com/electron/electron)
