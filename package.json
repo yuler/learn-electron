@@ -25,9 +25,9 @@
     "electron-builder": "^22.14.13"
   },
   "build": {
-    "appId": "com.company.AppName",
+    "appId": "yuler.learn-electron",
     "mac": {
-      "category": "public.app-category.testing",
+      "category": "public.app-category.learning",
       "darkModeSupport": true
     }
   }
